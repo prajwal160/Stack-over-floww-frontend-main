@@ -159,15 +159,7 @@ const Navbar = (src) => {
                         <a class="dropdown-item" href="https://razorpay-clone-fxew.onrender.com/">
                           RazorPay clone
                         </a>
-                      </Dropdown.Item>
-                      <Dropdown.Item href="#/action-3">
-                        <a
-                          class="dropdown-item"
-                          href="https://kaustubhpathak-tech.github.io/simon_game/"
-                        >
-                          Simon Game !
-                        </a>
-                      </Dropdown.Item>
+                      </Dropdown.Item>                     
                     </Dropdown.Menu>
                   </Dropdown>
                 </li>
@@ -310,7 +302,7 @@ const Navbar = (src) => {
               <li class="dropdown">
                 <a
                   class="nav-link dropdown-toggle"
-                  href="https://kaustubhpathak-tech.github.io/simon_game/"
+                  href="https://prajwal160.github.io/portfolio-website/"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
