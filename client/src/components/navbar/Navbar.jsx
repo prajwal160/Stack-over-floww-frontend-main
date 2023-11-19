@@ -334,15 +334,7 @@ const Navbar = (src) => {
                     >
                       RazorPay Clone
                     </a>
-                  </li>
-                  <li>
-                    <a
-                      class="dropdown-item"
-                      href="https://kaustubhpathak-tech.github.io/tindog-project/"
-                    >
-                      Tindog
-                    </a>
-                  </li>           
+                  </li>                       
                 </ul>
               </li>
             </ul>
