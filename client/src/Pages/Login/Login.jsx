@@ -65,25 +65,11 @@ const Login = () => {
       google.accounts.id.cancel();
     }
   }, [User, handleCallbackResponse]);
-  // useEffect(() => {
-  //   /* global google */
-  //   google.accounts.id.initialize({
-  //     client_id:
-  //       "602166184134-sj45i02o9tsjsc05h931q4mf0q1ogpnf.apps.googleusercontent.com",
-  //     callback: handleCallbackResponse,
-  //   });
-  //   google.accounts.id.renderButton(document.getElementById("signIndiv"), {
-  //     scope: "profile email",
-  //     width: 240,
-  //     height: 50,
-  //     longtitle: true,
-  //     theme: "dark",
-  //   });
-  //   // google.accounts.id.prompt();
-  // }, []);
+
   useEffect(() => {
     google.accounts.id.initialize({
         client_id: "602166184134-sj45i02o9tsjsc05h931q4mf0q1ogpnf.apps.googleusercontent.com",
+        // client_id: "1013252385258-kh57s0q0bm83sm582725fbekt30v4mhp.apps.googleusercontent.com",
         callback: handleCallbackResponse,
     });
     google.accounts.id.renderButton(document.getElementById("signIndiv"), {
@@ -95,7 +81,6 @@ const Login = () => {
     });
     // google.accounts.id.prompt();
 }, [handleCallbackResponse]);
-
 
 
   const handleSubmit = (e) => {
