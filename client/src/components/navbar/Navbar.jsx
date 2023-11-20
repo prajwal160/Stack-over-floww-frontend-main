@@ -98,7 +98,7 @@ const Navbar = (src) => {
             >
               <FontAwesomeIcon
                 icon={faBars}
-                style={{ color: "#ff7003", width: "20px", padding: "0" }}
+                style={{ color: "#ff7003", width: "20px", padding: "0", position:"fixed", right:"20px"}}
               />
             </Dropdown.Toggle>
 
