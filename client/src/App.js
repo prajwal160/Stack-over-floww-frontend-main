@@ -165,8 +165,8 @@ useEffect(() => {
     /* global google */
     google.accounts.id.initialize({
       client_id:
-        "602166184134-sj45i02o9tsjsc05h931q4mf0q1ogpnf.apps.googleusercontent.com",
-        // "1013252385258-kh57s0q0bm83sm582725fbekt30v4mhp.apps.googleusercontent.com",
+        // "602166184134-sj45i02o9tsjsc05h931q4mf0q1ogpnf.apps.googleusercontent.com",
+        "1013252385258-kh57s0q0bm83sm582725fbekt30v4mhp.apps.googleusercontent.com",
       callback: handleCallbackResponse,
     });
   

@@ -21,7 +21,7 @@ import LeftsideBar from "../../components/LeftsideBar/LeftsideBar";
 //main function goes here
 const Login = () => {
   const [email, setEmail] = useState("");
-  const [setPics] = useState("");
+  const [pic, setPics] = useState("");
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
   const dispatch = useDispatch();
