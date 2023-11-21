@@ -159,7 +159,12 @@ const Navbar = (src) => {
                         <a class="dropdown-item" href="https://razorpay-clone-fxew.onrender.com/">
                           RazorPay clone
                         </a>
-                      </Dropdown.Item>                     
+                      </Dropdown.Item>  
+                      <Dropdown.Item href="#/action-4">
+                        <a class="dropdown-item" href="https://prajwal160.github.io/IP-ADDRESS/">
+                          your IP
+                        </a>
+                      </Dropdown.Item>                                        
                     </Dropdown.Menu>
                   </Dropdown>
                 </li>

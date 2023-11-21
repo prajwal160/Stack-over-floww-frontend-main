@@ -1,0 +1,46 @@
+.hi {
+    position: fixed;
+    top: 278px;
+    left: 0px;
+    padding: 0;
+}
+
+.userbox {
+    border: 1px solid green;
+    z-index: 10;
+    background-color: rgb(143, 199, 182);
+}
+
+.flagimg {
+    width: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .hi,
+    .userbox {
+        display: none;
+    }
+}
+
+
+
+.hibro {
+    position: relative;
+}
+
+#myid {
+    color: rgb(25, 0, 255);
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+    top: 520px;
+    left: 3px;
+}
+
+@media only screen and (max-width: 600px) {
+    #myid {
+        top: 592px;
+        Adjust the value as needed
+    }
+}

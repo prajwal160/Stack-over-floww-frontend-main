@@ -20,6 +20,7 @@
   <title>Stack Overflow</title>
 
   <script src="https://accounts.google.com/gsi/client" async defer></script>
+  <link rel="stylesheet" href="index.css">
 </head>
 
 <body>
@@ -34,7 +35,9 @@ your IP
 <i id="state">IP</i> -->
 <!-- </pre> -->
 <!-- </div> -->
-<style>
+
+
+<!-- <style>
   .hi{
     position: fixed;
     top: 278px;
@@ -44,12 +47,18 @@ your IP
   .userbox{
     border:1px solid green;
     z-index: 10;
-    background-color: rgb(155, 194, 182);
+    background-color: rgb(143, 199, 182);
   }
   .flagimg{
     width:30px;
   }
-</style>
+  @media only screen and (max-width: 600px) {
+    .hi,
+    .userbox {
+        display: none;
+    }
+}
+</style> -->
 <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
 
 <script>
@@ -63,6 +72,38 @@ $.getJSON("https://api.ipgeolocation.io/ipgeo?apiKey=45f9879c52514ce293c8f8463b0
 
 })
 </script>
+</div>
+
+
+<div class="hibro">            
+<script src="http://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
+<script>
+	function loadGoogleTranslate()
+	{
+		new google.translate.TranslateElement("myid")
+	}
+</script>
+<div id="myid" >Choose Language</div>
+<!-- <style>
+        .hibro {
+            position: relative;
+        }
+
+        #myid {
+            color: red;
+            width: 100%;
+            z-index: 10;
+            position: fixed;
+            top:520px;
+            left: 3px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            #myid {
+                top: 592px; /* Adjust the value as needed */
+            }
+        }
+    </style> -->
 </div>
 
   <noscript>You need to enable JavaScript to run this app.</noscript>
