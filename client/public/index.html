@@ -23,6 +23,47 @@
 </head>
 
 <body>
+  <div class="hi">         
+<div class="userbox">
+<pre>you are visiting from:
+    <i id="country">country</i> <i id="flag"></i>
+your IP
+  <i id="ip">IP</i></pre>
+</div>
+<!-- <i id="city">IP</i>
+<i id="state">IP</i> -->
+<!-- </pre> -->
+<!-- </div> -->
+<style>
+  .hi{
+    position: fixed;
+    top: 278px;
+    left: 0px;
+    padding: 0;
+  }
+  .userbox{
+    border:1px solid green;
+    z-index: 10;
+    background-color: rgb(155, 194, 182);
+  }
+  .flagimg{
+    width:30px;
+  }
+</style>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+<script>
+$.getJSON("https://api.ipgeolocation.io/ipgeo?apiKey=45f9879c52514ce293c8f8463b0fab51", function(data){
+  console.log(data)
+  $('#country').html(data.country_name)
+  $('#flag').html('<img class="flagimg" src='+data.country_flag+'>');
+  $('#ip').html(data.ip);
+//  $('#city').html(data.city);
+//  $('#state').html(data.state_prov);
+
+})
+</script>
+</div>
 
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root">
