@@ -40,7 +40,6 @@
 
 @media only screen and (max-width: 600px) {
     #myid {
-        top: 592px;
-        Adjust the value as needed
+        top: 592px;  
     }
 }
