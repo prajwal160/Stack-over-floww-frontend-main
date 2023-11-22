@@ -10,27 +10,27 @@ const Tags = () => {
   const tagsList = [{
     id: 1,
     // tagName: "javascript",
-    tagName: <a href="https://stackoverflow.com/questions/tagged/javascript" target="_blank">javascript</a>,
+    tagName: <a href="https://stackoverflow.com/questions/tagged/javascript" target="_blank" rel="noreferrer">javascript</a>,
     tagDesc: "For questions regarding programming in ECMAScript (JavaScript/JS) and its various dialects/implementations (excluding ActionScript). Please include all relevant tags on your question;",
   }, {
     id: 2,
     // tagName: "python",
-     tagName: <a href="https://stackoverflow.com/questions/tagged/python" target="_blank">python</a>,
+     tagName: <a href="https://stackoverflow.com/questions/tagged/python" target="_blank" rel="noreferrer">python</a>,
     tagDesc: "Python is a multi-paradigm, dynamically typed, multipurpose programming language. It is designed to be quick to learn, understand, and use, and enforces a clean and uniform syntax."
   }, {
     id: 3,
     // tagName: "c#",
-    tagName: <a href="https://stackoverflow.com/questions/tagged/c%23" target="_blank">c#</a>,
+    tagName: <a href="https://stackoverflow.com/questions/tagged/c%23" target="_blank" rel="noreferrer">c#</a>,
     tagDesc: "C# (pronounced 'see sharp') is a high level, statically typed, multi-paradigm programming language developed by Microsoft"
   }, {
     id: 4,
     // tagName: "java",
-    tagName: <a href="https://stackoverflow.com/questions/tagged/java" target="_blank">java</a>,
+    tagName: <a href="https://stackoverflow.com/questions/tagged/java" target="_blank" rel="noreferrer">java</a>,
     tagDesc: "Java is a high-level object oriented programming language. Use this tag when you're having problems using or understanding the language itself. "
   }, {
     id: 5,
     // tagName: "php",
-    tagName: <a href="https://stackoverflow.com/questions/tagged/php" target="_blank">php</a>,
+    tagName: <a href="https://stackoverflow.com/questions/tagged/php" target="_blank" rel="noreferrer">php</a>,
     tagDesc: "PHP is a widely used, open source, general-purpose, multi-paradigm, dynamically typed and interpreted scripting language originally designed for server-side web development"
   }, {
     id: 6,
@@ -40,22 +40,22 @@ const Tags = () => {
   }, {
     id: 7,
     // tagName: "android",
-    tagName: <a href="https://stackoverflow.com/questions/tagged/android" target="_blank">android</a>,
+    tagName: <a href="https://stackoverflow.com/questions/tagged/android" target="_blank" rel="noreferrer">android</a>,
     tagDesc: "Android is Google's mobile operating system, used for programming or developing digital devices (Smartphones, Tablets, Automobiles, TVs, Wear, Glass, IoT)."
   }, {
     id: 8,
     // tagName: "css",
-    tagName: <a href="https://stackoverflow.com/questions/tagged/css" target="_blank">css</a>,
+    tagName: <a href="https://stackoverflow.com/questions/tagged/css" target="_blank" rel="noreferrer">css</a>,
     tagDesc: "CSS is a representation style sheet language used for describing the look and formatting of HTML, XML documents and SVG elements including colors, layout, fonts, and animations"
   }, {
     id: 9,
     // tagName: "Reactjs",
-    tagName: <a href="https://stackoverflow.com/questions/tagged/reactjs" target="_blank">Reactjs</a>,
+    tagName: <a href="https://stackoverflow.com/questions/tagged/reactjs" target="_blank" rel="noreferrer">Reactjs</a>,
     tagDesc: "React is a JavaScript library for building user interfaces. It uses a declarative, component-based paradigm and aims to be both efficient and flexible."
   }, {
     id: 10,
     // tagName: "node.js",
-    tagName: <a href="https://stackoverflow.com/questions/tagged/node.js" target="_blank">node.js</a>,
+    tagName: <a href="https://stackoverflow.com/questions/tagged/node.js" target="_blank" rel="noreferrer">node.js</a>,
     tagDesc: "Node.js is an event-based, non-blocking, asynchronous I/O runtime that uses Google's V8 JavaScript engine and libuv library. "
   }]
   return (
